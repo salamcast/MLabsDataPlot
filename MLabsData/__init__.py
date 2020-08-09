@@ -59,7 +59,7 @@ def MakeGraph(data):
                                name = 'L1',
                                line = blue
                        ))
-    v120.add_trace(go.Scaxtter(
+    v120.add_trace(go.Scatter(
                                x=TS,
                                y=L2,
                                mode = 'lines+markers',
